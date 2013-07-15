@@ -1795,29 +1795,29 @@
         </textarea>
 
         <buttonlist name="proglist" from="base_list_state_medium_selector">
-            <area>30,101,1220,410</area>
+            <area>30,103,1220,410</area>
             <statetype name="buttonitem">
                 <state name="active">
-                    <area>0,0,1220,36</area>
+                    <area>0,0,1220,30</area>
                     <textarea name="shortstartdate" from="base_text_font_state_small">
-                        <area>8,0,168,36</area>
+                        <area>8,0,168,30</area>
                          <template>%SHORTSTARTDATE%   %STARTTIME%</template>
                     </textarea>
                     <textarea name="channel" from="base_text_font_state_small">
-                        <area>196,0,190,36</area>
+                        <area>196,0,190,30</area>
                         <cutdown>no</cutdown>
                     </textarea>
                     <textarea name="title" from="base_text_font_state_small">
-                        <area>406,0,756,36</area>
+                        <area>406,0,756,30</area>
                     </textarea>
                     <textarea name="card" from="base_text_font_state_small">
-                        <area>1182,0,30,36</area>
+                        <area>1182,0,30,30</area>
                         <cutdown>no</cutdown>
                         <align>right,vcenter</align>
                     </textarea>
                 </state>
                 <state name="selectedactive">
-                    <area>0,0,1220,70</area>
+                    <area>0,0,1220,64</area>
                     <textarea name="shortstartdate" from="base_text_font_state_small">
                         <area>8,1,190,24</area>
                          <template>%SHORTSTARTDATE%   %STARTTIME%</template>
@@ -1834,29 +1834,29 @@
                         <cutdown>no</cutdown>
                         <align>right,vcenter</align>
                     </textarea>
-                    <textarea name="lenmins" from="base_text_font_state_smaller">
-                        <area>8,24,418,22</area>
+                    <textarea name="lenmins" from="base_text_font_state_extrasmall">
+                        <area>8,23,418,22</area>
                     </textarea>
-                    <textarea name="subtitle" from="base_text_font_state_smaller">
-                        <area>436,24,776,22</area>
+                    <textarea name="subtitle" from="base_text_font_state_extrasmall">
+                        <area>436,23,776,22</area>
                         <template>%YEARSTARS| %%SUBTITLE%</template>
                     </textarea>
                     <textarea name="rectypestatus" from="base_text_font_state_extrasmall">
-                        <area>8,45,527,20</area>
+                        <area>8,40,527,20</area>
                         <align>left,bottom</align>
                     </textarea>
                     <textarea name="timedate" from="rectypestatus">
-                        <area>685,45,527,20</area>
+                        <area>685,40,527,20</area>
                         <align>right,bottom</align>
                     </textarea>
                 </state>
                 <state name="selectedinactive" from="active" />
             </statetype>
             <statetype name="upscrollarrow">
-                <position>1210,-9</position>
+                <position>1209,-12</position>
             </statetype>
             <statetype name="downscrollarrow">
-                <position>1210,410</position>
+                <position>1209,408</position>
             </statetype>
         </buttonlist>
 
@@ -2076,7 +2076,7 @@
             <scrollstyle>center</scrollstyle>
             <wrapstyle>items</wrapstyle>
             <layout>horizontal</layout>
-            <buttonarea>0,0,1280,24</buttonarea>
+            <buttonarea>0,0,1280,34</buttonarea>
             <statetype name="buttonitem">
                 <state name="active">
                     <area>8,0,255,34</area>
@@ -2111,87 +2111,87 @@
         </buttonlist>
 
         <buttonlist name="shows" from="base_list">
-            <area>30,101,596,412</area>
+            <area>30,104,596,412</area>
             <statetype name="buttonitem">
                 <state name="active">
-                    <area>0,0,596,36</area>
+                    <area>0,0,596,30</area>
                     <textarea name="buttontext">
-                        <area>8,0,580,36</area>
+                        <area>8,0,580,30</area>
                     </textarea>
                 </state>
                 <state name="selectedactive">
-                    <area>0,0,596,36</area>
+                    <area>0,0,596,64</area>
                     <textarea name="buttontext">
-                        <area>8,0,563,36</area>
+                        <area>8,0,563,64</area>
                     </textarea>
                     <imagetype name="right_arrow" from="buttonarrow">
-                        <position>577,9</position>
+                        <position>577,23</position>
                     </imagetype>
                 </state>
                 <state name="selectedinactive">
-                    <area>0,0,596,36</area>
+                    <area>0,0,596,64</area>
                     <textarea name="buttontext">
-                        <area>8,0,580,36</area>
+                        <area>8,0,580,64</area>
                     </textarea>
                 </state>
             </statetype>
             <statetype name="upscrollarrow">
-                <position>585,-9</position>
+                <position>584,-12</position>
             </statetype>
             <statetype name="downscrollarrow">
-                <position>585,411</position>
+                <position>584,408</position>
             </statetype>
         </buttonlist>
 
         <buttonlist name="times" from="base_list_state">
-            <area>656,101,594,412</area>
+            <area>656,104,594,412</area>
             <buttonarea>0,0,100%,100%</buttonarea>    
             <statetype name="buttonitem">
                 <state name="active">
-                    <area>0,0,594,36</area>
+                    <area>0,0,594,30</area>
                     <textarea name="buttontext">
-                        <area>8,0,578,36</area>
+                        <area>8,0,578,30</area>
                         <align>allcenter</align>
                     </textarea>
                 </state>
                 <state name="selectedactive">
-                    <area>0,0,594,70</area>
+                    <area>0,0,594,64</area>
                     <textarea name="buttontext">
                         <area>8,1,578,24</area>
                         <align>allcenter</align>
                     </textarea>
                     <textarea name="rectypestatus" from="buttontext">
-                        <area>8,25,370,20</area>
+                        <area>8,22,370,20</area>
                         <font>baseextrasmallblue</font>
                         <align>left,vcenter</align>
                     </textarea>
                     <textarea name="longrepeat" from="buttontext">
-                        <area>378,25,208,20</area>
+                        <area>378,22,208,20</area>
                         <font>baseextrasmallred</font>
                         <align>right,vcenter</align>
                         <template>%LONGREPEAT%</template>
                     </textarea>
                     <textarea name="channel" from="buttontext">
-                        <area>8,45,289,24</area>
+                        <area>8,39,289,24</area>
                         <align>left,bottom</align>
                     </textarea>
                     <textarea name="lenmins" from="buttontext">
-                        <area>297,45,289,24</area>
+                        <area>297,39,289,24</area>
                         <align>right,bottom</align>
                     </textarea>
                 </state>
                 <state name="selectedinactive">
-                    <area>0,0,594,36</area>
+                    <area>0,0,594,64</area>
                     <textarea name="buttontext">
-                        <area>8,0,578,36</area>
+                        <area>8,0,578,64</area>
                     </textarea>
                 </state>
             </statetype>
             <statetype name="upscrollarrow">
-                <position>583,-9</position>
+                <position>582,-12</position>
             </statetype>
             <statetype name="downscrollarrow">
-                <position>583,411</position>
+                <position>582,408</position>
             </statetype>
         </buttonlist>
 
@@ -3935,32 +3935,20 @@
             <align>left,vcenter</align>
         </textarea>
 
-        <shape name="coverart-backdrop" from="base_backdrop">
-            <area>835,124,302,451</area>
-        </shape>
-
-        <textarea name="coverart_text" from="basetextarea">
-            <area>971,124,20,451</area>
-            <font>baselargered</font>
-            <multiline>yes</multiline>
-            <align>allcenter</align>
-            <value>N o\n\nC o v e r\n\nA r t !</value>
-        </textarea>
+        <imagetype name="no_coverart_image">
+            <area>837,126,298,447</area>
+            <filename>images/no_coverart.png</filename>
+        </imagetype>
 
         <imagetype name="coverart">
             <area>837,126,298,447</area>
+            <filename>images/no_coverart.png</filename>
         </imagetype>
 
-        <shape name="banner-backdrop" from="base_backdrop">
-            <area>716,577,540,103</area>
-        </shape>
-
-        <textarea name="banner_text" from="basetextarea">
+        <imagetype name="no_banner_image">
             <area>718,579,536,99</area>
-            <font>baselargered</font>
-            <align>allcenter</align>
-            <value>No Banner!</value>
-        </textarea>
+            <filename>images/no_banner.png</filename>
+        </imagetype>
 
         <imagetype name="banner">
             <area>718,579,536,99</area>

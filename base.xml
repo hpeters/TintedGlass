@@ -482,8 +482,8 @@
 
     <shape name="base_select_bar_active">
         <type>roundbox</type>
-        <fill color="#555555" alpha="60" />
-        <line color="#AAAAAA" alpha="30" />
+        <fill color="#444444" alpha="90" />
+        <line color="#444444" alpha="180" width="0" />
         <cornerradius>5</cornerradius>
     </shape>
 
@@ -744,7 +744,7 @@
                 </shape>
                 <textarea name="buttontext" from="base_text_font_state_small">
                     <font>basesmallyellow</font>
-                    <font state="normal">basesmall</font>
+                    <font state="normal">basesmallyellow</font>
                 </textarea>
             </state>
         </statetype>
